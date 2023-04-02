@@ -102,7 +102,7 @@ public:
                 curr+=points[curr];
             }
             points[i]=tp;
-            if(tp[i]>m1){
+            if(tp>m1){
                 m1=tp;
                 ns=i;
             }
